@@ -1,0 +1,84 @@
+/* Background & General Styles */
+body {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main Container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Todo Box with Glassmorphism */
+.todo-box {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+  color: white;
+}
+
+/* Input Field */
+.todo-input {
+  width: 70%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Add Button */
+.add-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #219150;
+}
+
+/* Task List */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  width:90%;
+}
+
+/* Task Item */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
